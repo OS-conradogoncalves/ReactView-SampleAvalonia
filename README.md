@@ -15,7 +15,6 @@ This is a fork within a simpler version of the [Sample.Avalonia](Sample.Avalonia
 * You need to have .NET SDK installed with at least version 6 to properly use this boilerplate.
 
 1) To build/run, just run the dotnet run or dotnet build commands in the repository root. Alternativaly, open the project solution in your IDE of Choice and hit run
-1) Follow [these](ViewGenerator/readme.txt "Instructions") intructions if you want to create new views.
 3) For more details check the Sample project.
 
 ## ReactView Releases
@@ -30,7 +29,7 @@ ViewGenerator is the companion tool of the ReactView framework which generates t
 
 ## Build pre-requisites
 - NodeJS
-- .NET 6+
+- .NET 8+
 
 ## ViewPacker
 
