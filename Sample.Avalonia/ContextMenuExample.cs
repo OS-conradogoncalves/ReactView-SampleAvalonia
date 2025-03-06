@@ -9,7 +9,6 @@ public class ContextMenuExample
         var contextMenu = new ContextMenu();
         var normalItem = new MenuItem { Header = "Normal Item" };
 
-        // Create a submenu with items
         var submenu = new MenuItem { Header = "Enabled Submenu" };
         submenu.ItemsSource = new List<MenuItem>
         {
@@ -19,14 +18,14 @@ public class ContextMenuExample
 
         var menuWithDisabledItems = new MenuItem
         {
-            Header = "Disabled Submenu",
+            Header = "SubMenu with Disabled Items",
         };
 
         menuWithDisabledItems.ItemsSource = new List<MenuItem>
         {
-            new MenuItem { Header = "Disabled Sub Item 1" },
+            new MenuItem { Header = "Sub Item 1" },
             new MenuItem { Header = "Disabled Sub Item 2", IsEnabled = false },
-            new MenuItem { Header = "Disabled Sub Item 1" },
+            new MenuItem { Header = "Sub Item 1" },
         };
 
         menuWithDisabledItems.PointerMoved += (s, e) => e.Handled = true;
