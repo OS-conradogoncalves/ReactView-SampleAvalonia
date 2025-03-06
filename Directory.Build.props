@@ -1,14 +1,14 @@
 <Project>
   <PropertyGroup>
-    <DotnetVersion>net6.0</DotnetVersion>
+    <DotnetVersion>net8.0</DotnetVersion>
     <Platforms>x64;ARM64</Platforms>
-    
+
     <!-- File with mtime of last successful npm install -->
     <NpmInstallStampFile>.npm-install-stamp</NpmInstallStampFile>
   </PropertyGroup>
 
   <PropertyGroup>
-    <AvaloniaVersion>11.0.9</AvaloniaVersion>
+    <AvaloniaVersion>11.2.2</AvaloniaVersion>
     <WebViewVersion>2.121.101</WebViewVersion>
   </PropertyGroup>
 
